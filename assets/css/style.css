@@ -1408,13 +1408,14 @@ div#nenxam {
 
 @media(max-width: 490px) {
     .chatbot-icon {
-        display: none;
+        /* display: none; */
     }
 }
 
 @media(max-width: 490px) {
     .chatbot {
-        display: none;
+        /* display: none; */
+        right: 5px;
     }
     #noidungcon {
         padding: 15px;

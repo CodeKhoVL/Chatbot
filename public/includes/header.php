@@ -7,10 +7,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://tuyensinh.hou.edu.vn/assets/icons/logo-hou.png">
     <!--  <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/bootstrap-theme.min.css"> -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=5">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1.0.1">
     <link rel="stylesheet" href="/assets/css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/template/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/owl.transitions.css">
     <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/owl.theme.css">
     <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/clock.css">
