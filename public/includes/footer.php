@@ -29,44 +29,9 @@
     </a>
 </div>
 
-<div class="open-chatbot ">
-    <div class="chatbot ">
-        <header>
-            <h2>ChatBot</h2>
-        </header>
-
-        <ul class="chatbox">
-            <li class="chat coming">
-                <p>Xin chào !</p>
-            </li>
-
-            <li class="chat user">
-                <p>Xin chào</p>
-            </li>
-        </ul>
-
-        <div class="chat-input">
-            <input id="userInput" type="text" placeholder="Gửi tin nhắn. . ." required>
-            <span class="material-symbols-outlined">send</span>
-        </div>
-    </div>
-
-    <button onclick="hide()" class="chatbot-icon">
-                <span  class="material-symbols-outlined">mode_comment</span>
-                <span class="material-symbols-outlined">close</span>
-        
-            </button>
-
-
-    <script>
-        function hide() {
-            var element = document.querySelector('.chatbot');
-            element.classList.toggle('hidden');
-
-
-        }
-    </script>
-</div>
+<?php
+require_once('chat.php');
+?>
 
 
 <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/jquery.min.js"></script>
@@ -74,7 +39,6 @@
 <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/owl.carousel.min.js"></script>
 <script src="https://tuyensinh.hou.edu.vn/js/zoomimg/jquery.magnific-popup.js"></script>
 <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/changesize.js"></script>
-<script type='text/javascript' src='plugins/unitegallery/js/jquery-11.0.min.js'></script>
 <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/plugins/unitegallery/js/unitegallery.min.js'></script>
 <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/plugins/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/js/init.plugins.js'></script>

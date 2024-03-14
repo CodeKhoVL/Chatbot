@@ -10,6 +10,4 @@ $connect = array(
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/app/controllers/helper.php');
 require_once($_SERVER['DOCUMENT_ROOT'].'/app/controllers/libs.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/app/controllers/is_username.php');
-
 ?>

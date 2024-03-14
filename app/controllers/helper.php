@@ -17,52 +17,7 @@ function decodecryptData($data)
     $rsa->setPublicKey(__DIR__ . '/clientPublic.pem');
     return $rsa->decryptWithPrivateKey($data);
 }
-function encrypt($data, $key)
-{
-    $ivSize = openssl_cipher_iv_length('AES-256-CBC');
-    $iv = openssl_random_pseudo_bytes($ivSize);
-    $encryptedData = openssl_encrypt($data, 'AES-256-CBC', $key, OPENSSL_RAW_DATA, $iv);
-    $encryptedData = base64_encode($iv . $encryptedData);
-    return $encryptedData;
-}
-
-// Hàm giải mã
-
-function decrypt($encryptedData, $key)
-{
-    $encryptedData = base64_decode($encryptedData);
-    $ivSize = openssl_cipher_iv_length('AES-256-CBC');
-    $iv = substr($encryptedData, 0, $ivSize);
-    $data = substr($encryptedData, $ivSize);
-    $decryptedData = openssl_decrypt($data, 'AES-256-CBC', $key, OPENSSL_RAW_DATA, $iv);
-    return $decryptedData;
-}
 $expiration = time() + (30 * 24 * 60 * 60); // Thời gian hết hạn là 30 ngày
-// Tạo giá trị phpsessid và mã hóa nó
-session_set_cookie_params([
-    'httponly' => true
-]);
-session_name('etoken');
-// setcookie("lang_code", password_hash(md5(md5('vi')), PASSWORD_DEFAULT ) ,$expiration, '/');
-if (empty($_COOKIE['duogxaolin'])) {
-    $sessionId = session_id();
-    $encryptedSessionId = encrypt(password_hash(md5(md5($sessionId)), PASSWORD_DEFAULT), $_COOKIE['etoken']);
-    // Đặt cookie với giá trị mã hóa
-    setcookie('duogxaolin', $encryptedSessionId);
-}
-if (empty($_COOKIE['python_session'])) {
-    setcookie("python_session", time(), $expiration, "/");
-}
-if (empty($_COOKIE['golang_session'])) {
-    setcookie("golang_session", password_hash(md5(md5(time())), PASSWORD_DEFAULT), $expiration, "/");
-}
-if (empty($_COOKIE['CSRF-TOKEN'])) {
-    $sessionId = session_id();
-    $encryptedSessionId = encrypt(password_hash(md5(md5($sessionId)), PASSWORD_DEFAULT), bin2hex(random_bytes(32)));
-    setcookie('CSRF-TOKEN', $encryptedSessionId);
-}
-header('X-Powered-By: PYTHON/3.9.7,GOLANG/1.17.1');
-header('Server: PYTHON/3.9.7,GOLANG/1.17.1');
 session_start();
 $domain = $_SERVER['HTTP_HOST'];
 $domain = trim($domain, "www.");
