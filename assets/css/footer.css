@@ -1,0 +1,91 @@
+
+#footer{
+	min-height: 450px;
+	border-top: 1px solid #130A33;
+	background-color: #002e3b;
+}
+#school-info{
+	margin: 70px -30px 30px 60px;
+	width: 270px;
+	line-height: 25px;
+}
+#school-info > p{
+	line-height: 30px;
+	font-size: 16px;
+	border-bottom: 1px solid #043c4c;
+	color: #80a9b5;
+}
+.row.gutter-15{
+	line-height: 20px;
+	width: 100%;
+}
+.footer-list{
+	margin-right: 0px; 
+	font-size: 16px;
+	margin-top: 70px;		
+}
+.footer-list > ul > li{
+	border-bottom: 1px solid #043c4c;
+}
+.footer-strong{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.footer-strong >p{
+	color: #7ca9b5;
+}
+.footer-menu >  li{
+	float: left; width: 120px;
+}
+.footer-menu > li > a{
+	font-size: 1.9em;
+}
+.footer-copy{
+	float: left;
+	width: 100%;
+	border-top: 1px solid #043c4c;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 14px;
+	color: #7ca9b5;
+}
+#footer .fa{
+	color: #dadada;
+}
+
+iframe{
+	border:0;
+	margin-top:60px;
+	width:100%;
+	border: none;
+	/*height: 150px;*/
+}
+
+
+@media (min-width: 320px) and (max-width: 414px){
+	#footer{
+		padding: 0px 30px;
+	}
+	#school-info {
+		 margin: 0px;
+	}
+	.footer-copy{
+		margin-bottom: 20px;
+	}
+	.footer-list {
+		margin-top: 40px;
+	}
+	#footer-map{
+		height: 250px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	#school-info {
+		margin: 30px 0px 0px 0px;
+		width: 100%;
+		line-height: 25px;
+	}
+}
+@media (min-width: 1024px) {
+
+}

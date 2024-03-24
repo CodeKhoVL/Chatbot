@@ -1,0 +1,1182 @@
+
+
+<!DOCTYPE html>
+<lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cổng thông tin tuyển sinh Trường Đại học Mở Hà Nội</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://tuyensinh.hou.edu.vn/assets/icons/logo-hou.png">
+   <!--  <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tuyensinh.hou.edu.vn/assets/css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="owl.transitions.css">
+    <link rel="stylesheet" href="owl.theme.css">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="owl-carousel.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <link rel="stylesheet" href="affect.css">
+    <link rel="stylesheet" href="footer.css">
+<!-- 
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <script src="https://tuyensinh.hou.edu.vn/template/js/jquery-1.11.1.min.js"></script>
+    <script src="https://tuyensinh.hou.edu.vn/template/js/jquery.spritezoom.js"></script>
+    <script src="https://tuyensinh.hou.edu.vn/template/js/bootstrap.min.js"></script>
+    <script src="https://tuyensinh.hou.edu.vn/js/select2.min.js" type="text/javascript"></script>
+    <script src="https://tuyensinh.hou.edu.vn/js/core_v1.js?v=1708002001"></script>
+   <!-- // <script language="javascript" src="jquery-3.2.1.min.js"></script> -->
+    
+    <!-- Images gallary -->
+    <link rel='stylesheet' href='https://tuyensinh.hou.edu.vn/assets/plugins/unitegallery/css/unite-gallery.css' type='text/css' />
+    <script  type="text/javascript" src="https://tuyensinh.hou.edu.vn/public/Toastr/toastr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://tuyensinh.hou.edu.vn/public/Toastr/toastr.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <style type="text/css">
+        #header-nav ul li:hover
+        {
+            background-color:  #08002B;
+        } 
+        ul.submenu > li {
+        white-space: nowrap;
+        min-width: 165px !important;
+    }
+    nav ul li:last:hover
+    {
+        color: #fff;
+    }
+    </style>
+</head>
+<script type="text/javascript">
+    var url_link = 'https://tuyensinh.hou.edu.vn/';
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76753511-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){
+    dataLayer.push(arguments);
+}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76753511-8');
+</script>
+<script type="text/javascript">
+    setTimeout(function() {
+        toastr.options = {
+            closeButton: true,
+            progressBar: true,
+            showMethod: 'slideDown',
+            timeOut: 5000
+        };
+    //     toastr.("","");
+    // }, 200);
+</script>
+<body>
+        <div id="wrapper" class="fw">
+            <header id="header-container" class="fw">
+                <div class="custom-container">
+                    <img src="https://tuyensinh.hou.edu.vn/assets/img/banner4.jpg" alt="ĐẠI HỌC MỞ HÀ NỘI" class="img-responsive">
+                </div>
+                
+            </header>
+            <div id="menu-tog" class="fw">
+            	<button><i class="fa fa-bars"></i></button>
+        	</div>
+
+	        <nav id="header-nav" class="navbar fw" >
+	            <ul class="container" style="background-color: #044489">
+	                <li style="background: #044489;">
+	                    <a href="https://tuyensinh.hou.edu.vn/" style="color: #FFF"><i class="fa fa-home"></i>Trang chủ</a>
+	                </li>
+	                <li>
+	                    <a href="http://tuyensinh.hou.edu.vn/tuvan/home" style="color: #FFF">Tư vấn tuyển sinh</a>
+	                </li>
+					<li>
+	                    <a href="https://moet.gov.vn" style="color: #FFF">Bộ Giáo dục và Đào tạo</a>
+	                </li>
+	                <li><a href="https://tuyensinh.hou.edu.vn/lienhe" style="color: #FFF">Liên hệ</a></li>
+	                <li style="float:right; margin-top: 3px; margin-right: 0px; bottom: 3px;" >
+	                  <a href="https://tuyensinh.hou.edu.vn/timkiem" title="" style="color: #fff"> <span class="glyphicon glyphicon-search" style="color: #fff"></span> Tìm kiếm</a>
+	                </li>
+
+	            </ul>
+	        </nav>
+        </div>
+
+        <div class="custom-container">
+
+            <div id="main-container" role="main" class="fw">
+                <div class="col-xs-12 col-sm-12 content">
+
+                    <!-- Tin nổi bật - hight light -->
+                    <div class="sukien" style="padding-top: 5px; padding-bottom: 10px;">
+                        <div class="row" id="tin_new">
+                            <div class="col-md-2">
+                                <img class="hidden-xs" src="https://tuyensinh.hou.edu.vn/files/anhmoi/tinnoibat.png" class="img-responsive" alt="" style="float: left;width:120%;margin-top: 5px;">
+                            </div>
+                            <div class="col-md-10">
+                                <p id="tinhot" style="float: left;margin-left: 1%;margin-top: 1.5%;line-height: 25px;">
+                                                                        <strong><a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT420/"> <b style="font-size: 25px;">Trường Đại học Mở Hà Nội công bố Đề án tuyển sinh năm 2024</b>
+                                    </a></strong>
+                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;">
+                                                                    </p>
+                            </div>     
+                        </div>
+                    </div>
+                    <div class="row gutter-50" style="margin-right: 0px;">                        <!-- Left side -->
+                   
+                        
+                    <!-- Content main -->
+                    
+                        <!-- top -->
+                            <aside id="sidebar" class="col-xs-12 col-md-9 test two " style="padding-right: 10px;">
+                                <article class="thumbs main-news" style=" border-bottom:  #0072bc solid 1px; border-top:  #0072bc solid 7px; border-left:  #0072bc solid 1px; border-right:  #0072bc solid 1px;">
+                                  <div style="padding-top: 20px;padding-bottom: 10px;border-bottom-width: 5px;">
+                                    <div class=" row">
+                                      <div class="col-xs-12 col-md-6" style=" margin : auto;">
+                                        <div class="row" style="padding-bottom: 20px;">
+                                           <div class="col-md-4 col-xs-4">
+                                              <a href="https://tuyensinh.hou.edu.vn/listtieude/CM001/"><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/Daotaochinhquy_n.png" alt="" style="width: 75%;margin-left: 15px;"></a>
+                                               <a href="https://tuyensinh.hou.edu.vn/listtieude/CM001/" style="font-weight: bold;"> <p style="color: #7585b9; text-align: center; padding-top: 5px;">Đào tạo  <br>chính quy</p></a>
+                                          </div>
+                                          <div class="col-md-4 col-xs-4">
+                                          <a href="https://tuyensinh.hou.edu.vn/listtieude/CM004/"><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/Daotaosaudaihoc_n.png" alt=""  style="width: 75%;margin-left: 15px;"></a>
+                                          <a href="https://tuyensinh.hou.edu.vn/listtieude/CM004/" style="font-weight: bold;"><p style="color: #7585b9; text-align: center; padding-top: 5px;">Đào tạo </p> 
+                                         <p style="color: #7585b9; text-align: center;">sau đại học</p></a>
+                                      </div>
+                                          <div class="col-md-4 col-xs-4">
+                                              <a href="https://tuyensinh.hou.edu.vn/listtieude/CM003/"><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/Daotaotuxa_n.png" alt="" style="width: 75%;margin-left: 15px;"></a>
+                                               <a href="https://tuyensinh.hou.edu.vn/listtieude/CM003/" style="font-weight: bold;"><p style="color: #7585b9; text-align: center; padding-top: 5px;">Đào tạo </p> 
+                                             <p style="color: #7585b9; text-align: center;">từ xa</p></a>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="col-xs-12 col-md-6" style="margin : auto;">
+                                      <div class="row">
+                                        
+                                       <div class="col-md-4 col-xs-4">
+                                         <a href="https://tuyensinh.hou.edu.vn/listtieude/CM005/"><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/Vanbang2_n.png" alt="" style="width: 75%;margin-left: 15px;"></a>
+                                         <a href="https://tuyensinh.hou.edu.vn/listtieude/CM005/" style="font-weight: bold;"><p style="color: #7585b9; text-align: center; padding-top: 5px;">Văn bằng hai,</p> 
+                                         <p style="color: #7585b9; text-align: center;">liên thông chính quy</p></a>
+                                      </div>
+                                      <div class="col-md-4 col-xs-4">
+                                              <a href="https://tuyensinh.hou.edu.vn/listtieude/CM002/" ><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/Daotaoquocte_n.png" alt="" style="width: 75%;margin-left: 15px;"></a>
+                                                <a href="https://tuyensinh.hou.edu.vn/listtieude/CM002/" style="font-weight: bold;"><p style="color: #7585b9; text-align: center; padding-top: 5px;">Đào tạo </p> 
+                                             <p style="color: #7585b9; text-align: center;">Quốc tế</p></a>
+                                          </div>
+                                       <div class="col-md-4 col-xs-4">
+                                          <a href="https://tuyensinh.hou.edu.vn/listtieude/CM006/"><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/daotaonganhan_n.png" alt="" style="width: 75%;"></a>
+                                           <a href="https://tuyensinh.hou.edu.vn/listtieude/CM006/" style="font-weight: bold;"><p style="color: #7585b9; text-align: center; padding-top: 5px;">Đào tạo </p> 
+                                         <p style="color: #7585b9; text-align: center;">ngắn hạn</p></a> 
+                                      </div>
+                                      </div>
+                                       
+                                      </div>
+                                      
+                                    </div>
+                                    
+                                  </div>
+                                </article>
+                                    <!---->
+                                <article class="thumbs main-news" style="padding-top: 20px;">
+                                  <div class="row" >
+                                    <div class="col-md-12 col-xs-12" >
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">ĐÀO TẠO CHÍNH QUY
+                                          <input type="hidden" name="cm" value="CM001">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT420/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Trường Đại học Mở Hà Nội công bố Đề án tuyển sinh năm 2024
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">06/02/2024</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT415" style="line-height: 23px;font-family: arial;font-size:15px; ">   Hướng dẫn thí sinh xác nhận nhập học, nhập học trực tuyến </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT415/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Hướng dẫn thí sinh xác nhận nhập học, nhập học trực tuyến </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">23/08/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT414/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo điểm trúng tuyển đợt 1 ĐHCQ năm 2023
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">22/08/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT409" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo ngưỡng đảm bảo chất lượng đầu vào năm 2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT409/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo ngưỡng đảm bảo chất lượng đầu vào năm 2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">21/07/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT408" style="line-height: 23px;font-family: arial;font-size:15px; ">   Danh sách thí sinh nộp chứng chỉ ngoại ngữ quốc tế thay thế môn ngoại ngữ trong tổ hợp xét tuyển, phiếu điểm thi môn năng khiếu tính đến 20/07/2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT408/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Danh sách thí sinh nộp chứng chỉ ngoại ngữ quốc tế thay thế môn ngoại ngữ trong tổ hợp xét tuyển, phiếu điểm thi môn năng khiếu tính đến 20/07/2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">10/07/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT407" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo điểm chuẩn đủ điều kiện trúng tuyển và kết quả xét tuyển phương thức sớm đại học chính quy năm 2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT407/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo điểm chuẩn đủ điều kiện trúng tuyển và kết quả xét tuyển phương thức sớm đại học chính quy năm 2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">07/07/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tracuudiemnangkhieu/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Tra cứu điểm thi môn năng khiếu năm 2023
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">06/07/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM001/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">GIỚI THIỆU CÁC NGÀNH TUYỂN SINH ĐẠI HỌC CHÍNH QUY
+                                          <input type="hidden" name="cm" value="CM007">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT295" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị Khách sạn </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT295/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị Khách sạn </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">16/04/2021</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT223" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Thương mại Điện tử </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT223/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Thương mại Điện tử </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">11/04/2019</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT184" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Thiết kế Công nghiệp </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT184/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Thiết kế Công nghiệp </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">05/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT185" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Ngôn ngữ Anh </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT185/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Ngôn ngữ Anh </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">05/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT181" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật Kinh tế </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT181/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật Kinh tế </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">04/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT182" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật Quốc tế </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT182/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật Quốc tế </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">04/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT183" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT183/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Luật </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">04/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT179" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Sinh học </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT179/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Sinh học </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">03/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT180" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Thực phẩm </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT180/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Thực phẩm </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">03/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT178" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Thông tin </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT178/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Thông tin </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">02/04/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT169" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị Kinh doanh </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT169/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị Kinh doanh </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT170" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Kế toán </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT170/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Kế toán </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT171" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Tài chính Ngân hàng </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT171/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Tài chính Ngân hàng </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT172" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Kiến trúc </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT172/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Kiến trúc </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT176" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Ngôn ngữ Trung Quốc </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT176/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Ngôn ngữ Trung Quốc </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT177" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị dịch vụ du lịch và Lữ hành </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT177/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Quản trị dịch vụ du lịch và Lữ hành </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT173" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Kỹ thuật Điều khiển và Tự động hóa  </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT173/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Kỹ thuật Điều khiển và Tự động hóa  </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT175" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Kỹ thuật Điện tử - Viễn thông </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT175/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Giới thiệu Ngành Công nghệ Kỹ thuật Điện tử - Viễn thông </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">20/03/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM007/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">ĐÀO TẠO SAU ĐẠI HỌC
+                                          <input type="hidden" name="cm" value="CM004">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT423/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Trường Đại học Mở Hà Nội thông báo tuyển sinh đào tạo trình độ Thạc sĩ đợt 1 năm 2024
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">15/02/2024</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT417" style="line-height: 23px;font-family: arial;font-size:15px; ">   Đề cương ôn tập cho thí sinh dự thi tuyển sinh đào tạo trình độ Thạc sĩ đợt 2/2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT417/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Đề cương ôn tập cho thí sinh dự thi tuyển sinh đào tạo trình độ Thạc sĩ đợt 2/2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">16/11/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT410" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo trình độ thạc sĩ đợt 2 năm 2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT410/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo trình độ thạc sĩ đợt 2 năm 2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">10/08/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT391" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo trình độ Tiến sĩ năm 2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT391/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo trình độ Tiến sĩ năm 2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">16/03/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT383" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh Đào tạo trình độ Thạc sĩ năm 2023 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT383/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh Đào tạo trình độ Thạc sĩ năm 2023 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">24/02/2023</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM004/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">ĐÀO TẠO TỪ XA
+                                          <input type="hidden" name="cm" value="CM003">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT416/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">    Mẫu hồ sơ đăng ký xét tuyển tại đào tạo từ xa
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">17/09/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT413/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   TUYỂN SINH ĐẠI HỌC TỪ XA TẠI KHU GIẢNG ĐƯỜNG CÁC KHOA 
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">22/08/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT412/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh đào tạo đại học hình thức Từ xa các ngành năm 2023 tại Trung tâm ĐH Mở Hà Nội tại Đà Nẵng
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">11/08/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT411/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh đào tạo đại học hình thức Từ xa các ngành năm 2023
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">11/08/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT393/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Danh sách trạm Đào tạo từ xa năm 2023
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">05/04/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM003/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">VĂN BẰNG HAI, LIÊN THÔNG CHÍNH QUY
+                                          <input type="hidden" name="cm" value="CM005">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT396/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh liên thông cao đẳng lên đại học chính quy
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">10/04/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT384/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh Đào tạo đại học văn bằng hai chính quy
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">24/02/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT346" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh Liên thông, Văn bằng hai chính quy ngành Luật năm 2022 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT346/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh Liên thông, Văn bằng hai chính quy ngành Luật năm 2022 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">30/04/2022</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT347" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh văn bằng hai chính quy ngành Ngôn ngữ Anh và Ngôn ngữ Trung Quốc năm 2022 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT347/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh văn bằng hai chính quy ngành Ngôn ngữ Anh và Ngôn ngữ Trung Quốc năm 2022 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">30/04/2022</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT294" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo đại học bằng hai - hệ chính quy ngành Ngôn ngữ Trung Quốc </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT294/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo đại học bằng hai - hệ chính quy ngành Ngôn ngữ Trung Quốc </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">18/01/2021</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM005/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">VỪA LÀM VỪA HỌC
+                                          <input type="hidden" name="cm" value="CM008">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT405/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh hệ VLVH năm 2023 (Trường CĐ Kinh tế Công nghệ Hà Nội)
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">27/06/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT402/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh hệ VLVH năm 2023 (Trung tâm GDTX tỉnh Thừa Thiên Huế)
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">23/05/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT399/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh hệ VLVH năm 2023 (TT GDTX tỉnh Phú Thọ)
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">18/04/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT394/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh hệ VLVH năm 2023 (Trường Cao đẳng Công thương Hà Nội)
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">05/04/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                                                                      <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT387/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Thông báo tuyển sinh hệ VLVH năm 2023 ( Trung tâm GDTX tỉnh Vĩnh Phúc)
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">10/03/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM008/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">ĐÀO TẠO QUỐC TẾ
+                                          <input type="hidden" name="cm" value="CM002">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT345" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo cử nhân Chương trình liên kết đào tạo cấp bằng Cử nhân Quản trị Du lịch Khách sạn </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT345/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh đào tạo cử nhân Chương trình liên kết đào tạo cấp bằng Cử nhân Quản trị Du lịch Khách sạn </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">18/04/2022</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT343" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh chương trình liên kết đào tạo ngành Quản trị Khách sạn Quốc tế năm 2022 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT343/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh chương trình liên kết đào tạo ngành Quản trị Khách sạn Quốc tế năm 2022 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">13/03/2022</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT326" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh chương trình liên kết đào tạo ngành Quản trị khách sạn Quốc tế năm 2021 </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT326/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyển sinh chương trình liên kết đào tạo ngành Quản trị khách sạn Quốc tế năm 2021 </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">02/09/2021</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT312" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyến sinh đào tạo cử nhân chương trình liên kết đào tạo cấp bằng Cử nhân Quản trị Du lịch Khách sạn </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT312/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Thông báo tuyến sinh đào tạo cử nhân chương trình liên kết đào tạo cấp bằng Cử nhân Quản trị Du lịch Khách sạn </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">05/06/2021</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                                                                      <div class="col-md-12" >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;">
+                                                  <p>
+                                                                                                     <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT203" style="line-height: 23px;font-family: arial;font-size:15px; ">   Về việc xét tuyển đào tạo tiền du học - học đại học chính quy tại Đại học Công nghệ Trùng Khánh Trung Quốc </a></i> 
+                                                                                                     <!--  <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT203/" style="line-height: 23px;font-family: arial;font-size:15px; ">   Về việc xét tuyển đào tạo tiền du học - học đại học chính quy tại Đại học Công nghệ Trùng Khánh Trung Quốc </a></i>  -->
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div>
+                                                <div class="hidden-xs" style="float: right;width: 14%;padding-top:10px;text-align: right;margin-right: 2%">
+                                                  <span style="font-size: 0.7em;color: #cccccc">06/08/2018</span>
+                                                </div>
+                                              </div>
+                                              <!-- hot -->
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM002/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                      									  
+                                      <div class="panel panel-primary" style="border-top: 0;">
+                                        <div class="panel-heading">ĐÀO TẠO NGẮN HẠN
+                                          <input type="hidden" name="cm" value="CM006">
+                                        </div>
+                                        <div class="panel-body" style="padding: 0px;text-align: justify;">
+
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="col-md-12"  >
+                                                <div class="gallery-left1-left col-xs-12 col-md-10" style="padding-top:10px;float: left;padding-left: 0px;"> 
+                                                  <p>
+                                                    <i class="fa fa-newspaper-o" aria-hidden="true"> &nbsp; <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT418/" style="line-height: 23px;font-weight: bold;color: red;font-family: arial;font-size:15px;">   Tuyển sinh khóa học/luyện thi/thi cấp chứng chỉ Tiếng Anh Linguaskill
+                                                    <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"> </a></i> 
+
+                                                    <!-- <span>01/01/1970</span> -->
+                                                  </p>
+                                                </div> 
+                                                <div  class="hidden-xs" style="float: right;width: 13%;padding-top:10px;text-align: right;margin-right: 2%" >
+                                                  <span style="font-size: 0.7em;color: #cccccc">08/12/2023</span>
+                                                </div>
+                                              </div>  
+                                                                                                                                       <a href="https://tuyensinh.hou.edu.vn/listtieude/CM006/" style="float: right; color:#cf0000; font-weight: bold; font-size: x-small; text-transform: uppercase; text-decoration: none; padding-bottom:7px; padding-top:20px;padding-right: 2%">XEM THÊM <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                                                                                               
+                                        </div><!--panel-body-->
+                                      </div> <!--panel panel-primary-->
+									  
+                                                                          </div><!--col-md-12 col-xs-12-->
+                                  </div> <!--row-->
+                                </article>
+
+                              
+                                  
+                            </aside>
+                              
+<aside id="sidebar" class="col-xs-12 col-md-3 test one" style="padding-left: 0px; padding-right: 0px; border-bottom:#0072bc solid 1px; border-top:#0072bc solid 7px; border-left:#0072bc solid 1px; border-right:#0072bc solid 1px;">
+    <!---->
+	<div class="sidebar-item" style="padding: 10px;border-bottom:#0072bc solid 1px; ">
+        <div class="sidebar-title" style="margin-right: 15px; margin-bottom: -45px;">
+            <h3>Video</h3>
+        </div>
+        <div >
+            <iframe style="height: 200px" src="https://www.youtube.com/embed/hNYt2Lh39qQ?modestbranding=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <div class="sidebar-item hidden-xs" style="padding: 10px;border-bottom:#0072bc solid 1px;font-size: 10pt; ">
+        <div class="sidebar-title">
+            <h3>BÀI VIẾT MỚI</h3>
+        </div>
+        <div class="panel-body" style="text-align: justify;">
+                                      <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT423/" style="line-height: 20px;font-size: 11pt; color: #044489" > Trường Đại học Mở Hà Nội thông báo tuyển sinh đào tạo trình độ Thạc sĩ đợt 1 năm 2024<img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"></a>
+            <p style="font-size: 9pt;"><span>15/02/2024</span></p>
+        </div>
+        <hr/>
+                                           <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT420/" style="line-height: 20px;font-size: 11pt; color: #044489" > Trường Đại học Mở Hà Nội công bố Đề án tuyển sinh năm 2024<img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"></a>
+            <p style="font-size: 9pt;"><span>06/02/2024</span></p>
+        </div>
+        <hr/>
+                                           <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT418/" style="line-height: 20px;font-size: 11pt; color: #044489" > Tuyển sinh khóa học/luyện thi/thi cấp chứng chỉ Tiếng Anh Linguaskill<img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"></a>
+            <p style="font-size: 9pt;"><span>08/12/2023</span></p>
+        </div>
+        <hr/>
+                                      <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT417/" style="line-height: 20px; font-size: 11pt; color: #044489"> Đề cương ôn tập cho thí sinh dự thi tuyển sinh đào tạo trình độ Thạc sĩ đợt 2/2023</a>
+            <p style="font-size: 9pt;"><span>16/11/2023</span></p>
+        </div>
+        <hr/>
+                                                   <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT416/" style="line-height: 20px;font-size: 11pt; color: #044489" >  Mẫu hồ sơ đăng ký xét tuyển tại đào tạo từ xa<img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"></a>
+            <p style="font-size: 9pt;"><span>17/09/2023</span></p>
+        </div>
+        <hr/>
+                                      <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT415/" style="line-height: 20px; font-size: 11pt; color: #044489"> Hướng dẫn thí sinh xác nhận nhập học, nhập học trực tuyến</a>
+            <p style="font-size: 9pt;"><span>23/08/2023</span></p>
+        </div>
+        <hr/>
+                                                   <div class="gallery-left1-left" style="padding-top:10px; ">
+            <i class="fa fa-newspaper-o"></i>&nbsp;
+            <a href="https://tuyensinh.hou.edu.vn/tintucchitiet/BT413/" style="line-height: 20px;font-size: 11pt; color: #044489" > TUYỂN SINH ĐẠI HỌC TỪ XA TẠI KHU GIẢNG ĐƯỜNG CÁC KHOA <img src="https://tuyensinh.hou.edu.vn/files/anhmoi/hot.gif" style="padding-bottom: 5px; display: inline;"></a>
+            <p style="font-size: 9pt;"><span>22/08/2023</span></p>
+        </div>
+        <hr/>
+                    </div>
+</div>
+
+<!--<article class="thumbs main-news " > -->
+    <div class="sidebar-item" style="padding: 10px;border-bottom:#0072bc solid 1px; ">
+        <div class="sidebar-title" style="margin-right: 15px;">
+            <h3>Khoa, Ngành đào tạo</h3>
+        </div>
+        <div style="padding-top:10px;">
+            <a href="http://tuyensinh.hou.edu.vn/tuvan/home" title=""><img src="https://tuyensinh.hou.edu.vn/files/anhmoi/timhieukhoa2021.jpg" alt="" style="widows: 100%; width: 100%;"></a>
+        </div>
+
+
+    </div>
+    <!-- /article> -->
+    <!---->
+
+    <br />
+    <div class="sidebar-item">
+    <div class="sidebar-title" style="margin-right: 15px;margin-left: 15px;">
+        <h3>Đại học trực tuyến</h3>
+    </div>
+    <div style="padding-top:10px;margin-right: 15px;margin-left: 15px;">
+        <a href="http://tuyensinh.ehou.edu.vn/" target="_blank">
+            <img class="img-responsive" alt="" src="https://tuyensinh.hou.edu.vn/assets/images/elearning.gif" ></a>
+        </div>
+    </div>
+
+<!--<divclass="sidebar-item" style="padding-top:20px; margin-right: 15px;margin-left: 15px;">
+<div class="sidebar-title">
+<h3>Video</h3>
+</div>
+<div class="video-item">
+<iframe style="margin-top:10px; max-height: 200px; width: 100%; " src="https://www.youtube.com/embed/9KkCdx2DbVA" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<br />
+<ul class="video-list">
+<li>
+<i class="fa fa-youtube-play" aria-hidden="true"> &nbsp;<a href="https://www.youtube.com/watch?v=4gVzHgCzfrM">Xin chào, EHOU</a></i>
+</li>
+</ul>
+ 
+</div> -->
+
+<!---->
+<br />
+<div class="sidebar-item" style="padding-top:15px;margin-right: 15px;margin-left: 15px;margin-bottom: 2%">
+<div class="sidebar-title" >
+    <h3>Lượt Xem</h3>
+</div>
+<div class="counter-zone">
+    <i aria-hidden="true" >
+                <span class="fa fa-eye"></span>
+        <span class="num-counter " style="letter-spacing:3PX;">3423391</span>
+            </i>
+</div>
+</div>
+
+<!---->
+<!---->
+<!--<divclass="sidebar-item" style="margin-right: 15px;margin-left: 15px; margin-bottom: 10px;">
+<div style="padding-top:10px;">
+<article class="thumbs main-news">
+<div class="article-title side-title">
+<h2>Góc ảnh</h2>
+</div>
+<div id="images-gallery" style="display:none;">
+</div>
+</article>
+</div>
+</div> -->
+</aside>
+</div>
+</div> 
+               <!--  <div id="map" class="fw">
+                    <h3 class="map-title">Vị trí viện đại học Mở Hà Nội</h3>
+                    <iframe id="footer-map" class="center-block" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCv2lHV7vykYrhbQr8NpkTjapjce3cJgVM&q=Viện+Đại+học+Mở+Hà+Nội" allowfullscreen>
+                    </iframe>
+                </div> -->
+            </div>
+
+            <footer class="footer">
+                <div class="row ">
+                    <div class="col-md-12" style="font-family:'Glyphicons Halfling';">
+                        <div class="col-xs-12 col-lg-4" >
+                            <div class="footer-left">
+                                <p align = "center">BẢN ĐỒ CHỈ DẪN </p>
+                                <a href="https://www.google.com/maps/place/Hanoi+Open+University/@21.0011384,105.8476061,18z/data=!4m5!3m4!1s0x3135ac73ed9ac83f:0x31946537224e0daf!8m2!3d21.0011059!4d105.8478824" title=""><img src="https://tuyensinh.hou.edu.vn/images/map.png" alt="" width="100%"></a>
+                            </div>
+                       </div>
+                        <div class="col-xs-12 col-lg-8">
+                            <div class="footer-right"><br>
+                             <p><i class="fa fa-mobile"></i> &nbsp; HOTLINE: 024.62974545 | 024.62974646</p>
+                                <p style="line-height:25px; "> Phòng QL đào tạo - Trường ĐH Mở HN, Phố Nguyễn Hiền P. Bách khoa, Q.Hai Bà Trưng, Hà Nội
+                                </p>
+                                <br>
+                                <p class="font-footer-right2"><i class=""></i>Copyright © 2017 Hanoi Open University</p>
+                                <p><i class=""></i>Website: Email: daotao@hou.edu.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+       <div id="phanhoi" style="">
+                <a href="https://tuyensinh.hou.edu.vn/tuvan/home" title="Tư vấn tuyển sinh">
+                <img src="https://tuyensinh.hou.edu.vn/images/Tu van tuyen sinh Gif.gif" width="80%" height="30%" title="Tư vấn tuyển sinh" alt="Tư vấn tuyển sinh">
+                </a>
+        </div>
+        <div class="container">
+   <div class="row">
+    <div class="open-chatbot ">
+            <div class="chatbot ">
+                <header>
+                    <h2>ChatBot</h2>
+                </header>
+            
+            <ul class="chatbox">
+                <li class="chat coming">
+                    <p>Xin chào !</p>
+                </li>
+                
+                <li class="chat user">
+                    <p>Xin chào</p>
+                </li>
+            </ul>
+        
+                <div class="chat-input">
+                    <input id="userInput" type="text" placeholder="Gửi tin nhắn. . ." required>
+                    <span class="material-symbols-outlined">send</span>
+                </div>
+            </div>
+        
+            <button onclick="hide()" class="chatbot-icon">
+                <span  class="material-symbols-outlined">mode_comment</span>
+                <span class="material-symbols-outlined">close</span>
+        
+            </button>
+        
+        
+            <script>
+                function hide() {
+                var element = document.querySelector('.chatbot');
+                element.classList.toggle('hidden');
+
+                
+            }
+            </script>
+        </div>
+   </div>
+</div>
+        
+
+    
+        <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/jquery.min.js"></script>
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCv2lHV7vykYrhbQr8NpkTjapjce3cJgVM" async defer></script> 
+        <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/owl.carousel.min.js"></script>
+        <script src="https://tuyensinh.hou.edu.vn/js/zoomimg/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/changesize.js"></script>
+       <script type='text/javascript' src='plugins/unitegallery/js/jquery-11.0.min.js'></script> 
+        <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/plugins/unitegallery/js/unitegallery.min.js'></script>
+        <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/plugins/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+        <script type='text/javascript' src='https://tuyensinh.hou.edu.vn/assets/js/init.plugins.js'></script>
+        <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/js/main.js"></script>
+        <script type="text/javascript" src="https://tuyensinh.hou.edu.vn/assets/video.js"></script>
+</body>
+</html>
