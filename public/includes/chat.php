@@ -14,12 +14,12 @@
 
         <div class="chat-input">
             <input  onkeypress="handleKeyPress(event)"  id="userInput"  type="text" placeholder="Gửi tin nhắn. . ." required>
-<<<<<<< HEAD
-            <div onclick="sendMessage()" id="sendButton" class="material-symbols-outlined" style="display: flex; align-items: center;">
+
+            <!-- <div onclick="sendMessage()" id="sendButton" class="material-symbols-outlined" style="display: flex; align-items: center;"> -->
             <img src="/assets/chat.svg" style="height:30px"></div>
-=======
+
             <button onclick="sendMessage()" id="sendButton" class="material-symbols-outlined">send</button>
->>>>>>> a0a32f98d048e62e6e954ff5c9d6eeead195930b
+
         </div>
     </div>
 
@@ -44,11 +44,11 @@
             var chatlog = document.getElementById("chatlog");
             var sendButton = document.getElementById("sendButton");
           
-<<<<<<< HEAD
+
           
-=======
+
             sendButton.innerHTML = '<i class="far fa-spinner fa-spin"></i>';
->>>>>>> a0a32f98d048e62e6e954ff5c9d6eeead195930b
+
             sendButton.disabled = true;
             var xhr = new XMLHttpRequest();
             xhr.open("POST", "/api/chat", true);
